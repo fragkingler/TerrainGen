@@ -149,7 +149,7 @@ void draw() {
 }
 
 // Key interactions
-void keyPressed() {
+void keyReleased() {
   if (key == 'c') { // Add new Cloud when "C" is pressed
     clouds.add(new Cloud(clouds.size(), cloudStartZ, flying*cloudFlyingMod, text));
   } else if (key == ' ') { // Pause/unpause program on spacebar
